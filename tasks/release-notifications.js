@@ -132,6 +132,7 @@ const getReleaseNote = () => {
 
     res.on('end', () => {
       response = JSON.parse(response);
+      console.log('response', response);
       getPRs(response.body);
     });
   });
