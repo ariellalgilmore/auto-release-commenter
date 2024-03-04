@@ -30,7 +30,7 @@ const githubToken = args.token || process.env.GITHUB_TOKEN;
  * Release version (-v)
  * @type {string}
  */
-const releaseVersion = args.version || process.env.VERSION;
+const releaseVersion = '0.0.1';
 
 /**
  * Github Repo Slug

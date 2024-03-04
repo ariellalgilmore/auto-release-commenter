@@ -25,4 +25,3 @@ jobs:
         run: node tasks/release-notifications.js
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          VERSION: '${{ github.event.inputs.release }}'
