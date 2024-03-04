@@ -112,6 +112,8 @@ const getPRs = (note) => {
  * Gets the release note
  */
 const getReleaseNote = () => {
+  console.log('githubtoken', `'${githubToken}'`);
+  console.log('release', `'${releaseVersion}'`);
   const options = {
     hostname: 'api.github.com',
     path: releaseLogUrl,
