@@ -24,13 +24,13 @@ const args = program.parse(process.argv);
  * Github Token (-t)
  * @type {string}
  */
-const githubToken = args.token || env.GITHUB_TOKEN;
+const githubToken = args.token || GITHUB_TOKEN;
 
 /**
  * Release version (-v)
  * @type {string}
  */
-const releaseVersion = args.version || env.VERSION;
+const releaseVersion = args.version || VERSION;
 
 /**
  * Github Repo Slug
